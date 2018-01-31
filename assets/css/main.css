@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css?family=Megrim');
 
 /*
 	Big Picture by HTML5 UP
@@ -1683,6 +1684,8 @@
 			height: 3em;
 			line-height: 3em;
 			cursor: default;
+            font-family: 'Megrim', cursive;
+            font-size: 1.5rem;
 		}
 
 			#header h1 a {
@@ -2093,17 +2096,17 @@
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/intro.jpg");
+		background: url("images/overlay.png"), url("../../images/porra.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
+		background-position: top left, bottom top;
 		background-repeat: repeat, no-repeat;
 	}
 
 /* One */
 
 	#one {
-		background: url("images/overlay.png"), url("../../images/one.jpg");
+		background: url("images/overlay.png"), url("../../images/bg-2.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2112,7 +2115,7 @@
 /* Two */
 
 	#two {
-		background: url("images/overlay.png"), url("../../images/two.jpg");
+		background: url("images/overlay.png"), url("https://scontent.faep3-1.fna.fbcdn.net/v/t31.0-8/14859824_1867546573479222_8604002062672081702_o.jpg?oh=eea47da4f4fa44e701ca5a719a93c552&oe=5B1E3847");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
